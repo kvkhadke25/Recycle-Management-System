@@ -1,0 +1,51 @@
+@charset "ISO-8859-1";
+
+.table {
+	border-collapse: separate;
+	border-spacing: 0 20px;
+	border: 1px;
+}
+
+label {
+	display: inline;
+	padding: .2em .6em .3em;
+	font-size: 110% !important;
+	font-weight: 700;
+	width: -webkit-fill-available;
+	line-height: 1;
+	white-space: nowrap;
+	vertical-align: baseline;
+	border-radius: .25em;
+}
+
+.date {
+	color: black;
+}
+
+#btn-success:hover {
+	background-color: #4CAF50;
+	border-radius: 8px;
+}
+
+#btn-clear:hover {
+	background-color: #FFA500;
+	border-radius: 8px;
+}
+
+.form-style {
+	width: 60%;
+	margin-left: 290px;
+}
+
+.form-style-2 {
+	width: 70%;
+}
+
+.navbar-style {
+	font-size: 30px;
+	color: white;
+}
+
+.navbar-custom {
+	background-color: rgb(139, 0, 139);
+}
